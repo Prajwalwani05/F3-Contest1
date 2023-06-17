@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Lato', sans-serif;
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 100vh;
+    margin-left: 20px;
+    overflow: hidden;
+}
+h2{
+    margin-top: 50px;
+}
+form{
+    display: flex;
+    margin-top: 45px;
+    gap: 50px;
+}
+.user-input > label{
+    font-size: 15px;
+    font-weight: 400;
+}
+.user-input > input{
+   width: 370px;
+   height: 35px;
+   margin-top: 10px;
+   background-color: transparent;
+   border: 1px solid white;
+   outline: none;
+   color: rgb(48, 208, 139);
+   padding-left: 10px;
+   font-weight: 700;
+   border-radius: 5px;
+   caret-color: rgb(7, 255, 115);
+}
+.user-input>input::-webkit-outer-spin-button,
+.user-input>input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+button{
+    margin-top: 20px;
+    width: 100px;
+    padding: 5px 8px;
+    border: 1px solid white;
+    cursor:pointer;
+    font-weight: 500;
+}
+button:hover{
+    background-color: rgb(8, 68, 42);
+    color: rgb(255, 255, 255);
+    border: none;
+}
+#alert{
+  margin-top: 20px;
+}
+.el{
+    color: #FF4343;
+}
+.container{
+    background: #FF4343;
+    color: white;
+}
+#para{
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: 400;
+    color: gray;
+}
+.emptyDiv{
+    color: white;
+}
+.added-input{
+    display: flex;
+    border: 1px solid white;
+    width: fit-content;
+    margin-top: 20px;
+    padding: 5px 10px;
+    gap: 25px;
+    border-radius: 5px;
+}
+.userContainer{
+    
+    display: flex;
+}
+.main-div{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.user-div{
+    border: 1px solid rgba(240, 248, 255, 0.895);
+    width: fit-content;
+    padding: 8px 1px 8px 0px;
+    border-radius: 5px;
+}
+.user-div>span{
+    padding-right: 10px;
+    padding-left: 5px;
+    color: rgb(11, 240, 11);
+}
+.delete-button{
+    margin-left: 10px;
+    padding-bottom: 18px;
+}
+.delete-button > button{
+    font-size: 11px;
+    padding: 7px; 
+    width: 90px;
+    border-radius: 20px;
+}
